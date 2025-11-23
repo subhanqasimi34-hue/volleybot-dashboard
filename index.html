@@ -2,69 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Overview</title>
+  <title>VolleyBot Dashboard</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
+
 <body>
 
   <div class="sidebar">
     <h2 class="logo">VOLLEYBOT</h2>
 
-    <a href="index.html" class="active">Overview</a>
-    <a href="premium.html">Premium Upgrade</a>
-    <a href="settings.html">Settings</a>
+    <nav>
+      <a href="index.html" class="active">Overview</a>
+      <a href="premium.html">Premium Upgrade</a>
+      <a href="settings.html">Settings</a>
+    </nav>
 
     <div class="creator-box">
-      <p class="creator-title">Created by</p>
-      <p class="creator-name">Red_thz</p>
+      <span>Created by</span>
+      <strong>Red_thz</strong>
     </div>
   </div>
 
-  <div class="main">
-    <h1>Overview Dashboard</h1>
+  <main class="content">
 
-    <div class="cards">
-      <div class="card purple">
-        <h3>Total Players</h3>
-        <p>1,102,331</p>
+    <h1 class="page-title">Overview Dashboard</h1>
+
+    <div class="card-grid">
+
+      <div class="stat-card stat-purple">
+        <span class="label">Total Players</span>
+        <span class="value">1,102,331</span>
       </div>
 
-      <div class="card blue">
-        <h3>Active Matches</h3>
-        <p>421</p>
+      <div class="stat-card stat-blue">
+        <span class="label">Active Matches</span>
+        <span class="value">421</span>
       </div>
 
-      <div class="card cyan">
-        <h3>Requests / Minute</h3>
-        <p>3,214</p>
+      <div class="stat-card stat-cyan">
+        <span class="label">Requests / Minute</span>
+        <span class="value">3,214</span>
       </div>
+
     </div>
 
     <h2 class="section-title">Dashboard Information</h2>
 
-    <div class="info-table">
-      <table>
+    <div class="table-wrap">
+      <table class="info-table">
         <tr>
           <th>Category</th>
           <th>Value</th>
         </tr>
-
         <tr>
           <td>Bot Version</td>
           <td>v1.0.0</td>
         </tr>
-
         <tr>
           <td>Developer</td>
           <td>Red_thz</td>
         </tr>
-
         <tr>
           <td>Project</td>
           <td>VolleyBot Matchmaking System</td>
         </tr>
-
         <tr>
           <td>Status</td>
           <td>Running</td>
@@ -72,7 +74,7 @@
       </table>
     </div>
 
-  </div>
+  </main>
 
 </body>
 </html>
