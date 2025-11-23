@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script defer src="script.js"></script>
   <meta charset="UTF-8">
-  <title>Premium Upgrade</title>
+  <title>Dashboard Overview</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<script defer src="script.js"></script>
 <body>
-<div class="sidebar">
-    <h2 class="logo">VOLLEYBOT</h2>
 
-    <a href="index.html" id="nav-overview">Overview</a>
-    <a href="player.html" id="nav-player">Player Stats</a>
-    <a href="match.html" id="nav-match">Match Management</a>
-    <a href="requests.html" id="nav-requests">Requests</a>
-    <a href="logs.html" id="nav-logs">Logs</a>
-    <a href="health.html" id="nav-health">System Health</a>
-    <a href="database.html" id="nav-database">Database Usage</a>
-    <a href="premium.html" id="nav-premium">Premium Upgrade</a>
-    <a href="settings.html" id="nav-settings">Settings</a>
-</div>
+  <div class="sidebar">
+    <h2 class="logo">VOLLEYBOT</h2>
+    <a class="active">Overview</a>
+    <a>Player Stats</a>
+    <a>Match Management</a>
+    <a>Requests</a>
+    <a>Logs</a>
+    <a>System Health</a>
+    <a>Database Usage</a>
+    <a>Premium Upgrade</a>
+    <a>Settings</a>
+  </div>
 
   <div class="main">
-    <h1>Premium Upgrade</h1>
+    <h1>Overview Dashboard</h1>
 
-    <div class="premium-container">
-
-      <div class="premium-card">
-        <h2 class="premium-title">Premium Plan</h2>
-
-        <p class="premium-price">$9.99 / month</p>
-
-        <ul class="premium-list">
-          <li>MongoDB M2 Database</li>
-          <li>Fast Match Processing</li>
-          <li>Priority Support</li>
-          <li>24/7 VPS Power Upgrade</li>
-          <li>Unlimited Player Stats</li>
-        </ul>
-
-        <button class="paypal-btn">Upgrade with PayPal</button>
+    <div class="cards">
+      <div class="card purple">
+        <h3>Total Players</h3>
+        <p>1,102,331</p>
       </div>
 
+      <div class="card blue">
+        <h3>Active Matches</h3>
+        <p>421</p>
+      </div>
+
+      <div class="card cyan">
+        <h3>Requests / Minute</h3>
+        <p>3,214</p>
+      </div>
+
+      <div class="card green">
+        <h3>Uptime</h3>
+        <p>99.98%</p>
+      </div>
+    </div>
+
+    <div class="charts">
+      <div class="chart">Match Activity Chart</div>
+      <div class="chart">Player Growth Chart</div>
     </div>
 
   </div>
