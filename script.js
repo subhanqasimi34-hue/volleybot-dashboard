@@ -1,4 +1,3 @@
-// Auto-Highlight active page
 const links = document.querySelectorAll(".sidebar a");
 const current = window.location.pathname;
 
