@@ -1,4 +1,4 @@
-const links = document.querySelectorAll(".sidebar a");
+const links = document.querySelectorAll(".sidebar nav a");
 const current = window.location.pathname;
 
 links.forEach(link => {
