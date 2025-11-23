@@ -2,26 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard Overview</title>
+  <title>Overview</title>
   <link rel="stylesheet" href="style.css">
-</head>
   <script defer src="script.js"></script>
+</head>
 <body>
 
- <div class="sidebar">
+  <div class="sidebar">
     <h2 class="logo">VOLLEYBOT</h2>
 
-    <a href="index.html" id="nav-overview">Overview</a>
-    <a href="player.html" id="nav-player">Player Stats</a>
-    <a href="match.html" id="nav-match">Match Management</a>
-    <a href="requests.html" id="nav-requests">Requests</a>
-    <a href="logs.html" id="nav-logs">Logs</a>
-    <a href="health.html" id="nav-health">System Health</a>
-    <a href="database.html" id="nav-database">Database Usage</a>
-    <a href="premium.html" id="nav-premium">Premium Upgrade</a>
-    <a href="settings.html" id="nav-settings">Settings</a>
-</div>
+    <a href="index.html" class="active">Overview</a>
+    <a href="premium.html">Premium Upgrade</a>
+    <a href="settings.html">Settings</a>
 
+    <div class="creator-box">
+      <p class="creator-title">Created by</p>
+      <p class="creator-name">Red_thz</p>
+    </div>
+  </div>
 
   <div class="main">
     <h1>Overview Dashboard</h1>
@@ -41,21 +39,40 @@
         <h3>Requests / Minute</h3>
         <p>3,214</p>
       </div>
-
-      <div class="card green">
-        <h3>Uptime</h3>
-        <p>99.98%</p>
-      </div>
     </div>
 
-    <div class="charts">
-      <div class="chart">Match Activity Chart</div>
-      <div class="chart">Player Growth Chart</div>
+    <h2 class="section-title">Dashboard Information</h2>
+
+    <div class="info-table">
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Value</th>
+        </tr>
+
+        <tr>
+          <td>Bot Version</td>
+          <td>v1.0.0</td>
+        </tr>
+
+        <tr>
+          <td>Developer</td>
+          <td>Red_thz</td>
+        </tr>
+
+        <tr>
+          <td>Project</td>
+          <td>VolleyBot Matchmaking System</td>
+        </tr>
+
+        <tr>
+          <td>Status</td>
+          <td>Running</td>
+        </tr>
+      </table>
     </div>
 
   </div>
 
 </body>
 </html>
-
-
